@@ -1,0 +1,1 @@
+Small project of my to understudy CI/CD with GitHub Actions
