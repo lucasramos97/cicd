@@ -1,12 +1,5 @@
-const express = require('express');
-
-const app = express();
+const app = require('./src/app');
 const PORT = 3000;
-
-app.use(express.json());
-app.get('/', (req, res) => {
-  res.send({ message: 'Hello Friend!' });
-});
 
 app.listen(PORT, (error) => {
   if (!error) {
